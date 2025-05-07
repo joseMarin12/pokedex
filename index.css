@@ -69,11 +69,10 @@ footer:hover {
 }
 
 .imagen_pokemon img {
-  max-width: 100%;
-  height: auto;
+  width: 350px;
   display: block;
   margin: 0 auto;
-  border-radius: 10px; /* Bordes redondeados para la imagen */
+  border-radius: 10px; 
 }
 
 /* Contenedor de la información del Pokémon */

@@ -49,7 +49,7 @@
                 type="text"
                 class="form-control"
                 id="autoSizingInputGroup"
-                placeholder="Nombre / numero de pokemon"
+                placeholder="escribir numero "
               />
               <button type="button" class="btn btn-primary">Buscar</button>
             </div>
@@ -88,7 +88,7 @@
           const pokemonName = document.createElement('h2');
           pokemonName.textContent = pokemon.name.toUpperCase();
 
-          // Estadísticas del Pokémon
+          // Estadísticas
           const stats = pokemon.stats;
           const abilities = document.createElement('p');
           abilities.textContent = `Habilidades: ${pokemon.abilities.map((ability) => ability.ability.name).join(', ')}`;
@@ -100,7 +100,7 @@
           pokemonImg.src = pokemon.sprites.front_default;
           pokemonImg.alt = pokemon.name;
 
-          // Barra de estadísticas
+          // barras
           const statsContainer = document.createElement('div');
           stats.forEach((stat) => {
             const statElement = document.createElement('div');
